@@ -24,7 +24,8 @@ npm install
 Run the server:
 
 ```
-node ./bin/blockchain-demo.js
+cd bin
+node blockchain-demo.js
 ```
 
 Point a web browser at the demo:
