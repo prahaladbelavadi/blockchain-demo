@@ -14,12 +14,10 @@
     "type": "git",
     "url": "git+https://github.com/anders94/blockchain-demo.git"
   },
-  { "scripts" :
-    { 
-      "prestart": "npm install",
-      "start" : "node .bin/blockchain-demo.js",
-      "poststart": "console.log('open browser and visit localhost:8080')"
-    }
+  "scripts": {
+    "prestart": "npm install",
+    "start": "node .bin/blockchain-demo.js",
+    "poststart": "console.log('open browser and visit localhost:8080')"
   },
   "bugs": {
     "url": "https://github.com/anders94/blockchain-demo/issues"
@@ -43,8 +41,8 @@
       "email": "anders-git@evantide.com"
     },
     {
-      "name":"Prahalad Belavadi",
-      "email":"prahaladbelavadi@gmail.com"
+      "name": "Prahalad Belavadi",
+      "email": "prahaladbelavadi@gmail.com"
     }
   ]
 }
