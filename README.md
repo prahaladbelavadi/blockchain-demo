@@ -23,7 +23,17 @@ npm install
 Run the server:
 
 ```
+npm start
+```
+
+OR
+
+```
 ./bin/www
+```
+#For windows: if the above command didn't work, use this (make sure you have Node.js installed in your system):
+```
+node ./bin/www      
 ```
 
 Point a web browser at the demo:
@@ -69,8 +79,13 @@ with a difficulty of 6, the first nonce that works is `8719932` yielding a hash 
 In the production bitcoin blockchain, block `458091` has the hash digest
 `00000000000000000000011246f099d94f91628d71c9d75ad2f9a06e2beb7e92`. That's 21 zeros in a row!
 
+### Public Private Key Demo
+
+The 2nd part of the 101 session:
+* https://github.com/anders94/public-private-key-demo
+
 ## Send Thanks
 
 ![](public/images/qr.png)
 
-Bitcoin greatfully accepted: `1K3NvcuZzVTueHW1qhkG2Cm3viRkh2EXJp`
+Bitcoin gratefully accepted: `1K3NvcuZzVTueHW1qhkG2Cm3viRkh2EXJp`
